@@ -1,2 +1,3 @@
-# Projetos-em-Python
-Simplesmente projetos em Python.
+Meus projetos em Python nessa jornada da vida.
+
+
