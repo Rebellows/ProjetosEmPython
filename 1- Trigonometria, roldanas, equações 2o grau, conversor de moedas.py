@@ -86,7 +86,7 @@ if choice == 3:
     moeda = str(input('Qual a moeda que o senhor quer converter? [REAL / DÓLAR / EURO] ')).upper()
     if moeda == 'REAL':
         real = str(input('Ok amigo, e quer converter para qual moeda? [DÓLAR / EURO]  ')).upper()
-        if real == 'DÓLAR':
+        if real == 'DÓLAR' or 'DOLAR':
             quantia = int(input('Anotado patrão, agora me diga, qual a quantia a ser convertida? '))
             resultado = round(quantia / 5.05)
             print(f'Patrão, sua quantia resultou em ${resultado} !')
@@ -94,7 +94,7 @@ if choice == 3:
             quantia2 = int(input('Anotado patrão, agora me diga, qual a quantia a ser convertida? '))
             resultado2 = round(quantia2 / 5.50)
             print(f'Patrão, sua quantia resultou em €{resultado2} !')
-    if moeda == 'DÓLAR':
+    if moeda == 'DÓLAR' or 'DOLAR':
         dolar = str(input('Ok amigo, e quer converter para qual moeda? [REAL / EURO]  ')).upper()
         if dolar == 'REAL':
             quantia3 = int(input('Anotado patrão, agora me diga, qual a quantia a ser convertida? '))
@@ -106,7 +106,7 @@ if choice == 3:
             print(f'Patrão, sua quantia resultou em €{resultado4} !')
     if moeda == 'EURO':
         real = str(input('Ok amigo, e quer converter para qual moeda? [DÓLAR / REAL]  ')).upper()
-        if real == 'DÓLAR':
+        if real == 'DÓLAR' or 'DOLAR':
             quantia5 = int(input('Anotado patrão, agora me diga, qual a quantia a ser convertida? '))
             resultado5 = round(quantia5 * 1.09)
             print(f'Patrão, sua quantia resultou em ${resultado5} !')
